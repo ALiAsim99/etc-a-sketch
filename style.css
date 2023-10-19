@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+button{
+    margin-bottom: 20px;
+ 
+    
+}
+.grid{
+    display: grid;
+    background-color: #fefefe;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height:500px;
+    width: 500px;
+}
+.grid-element{
+    user-select: none;
+    background-color: grey;
+    border:2px solid black;
+}
